@@ -1,26 +1,45 @@
-// 1 Переменные
-var name = 'Valentin' //лучше не использовать
-const lastName = 'Badasin' //неизменяемая
-const firstName = 'Valentin' //неизменяемая
-// const age = 33
-const isProgrammer = true
+
+// Number
+// const num = 42
+// const float = 42.42
+// const pow = 10e3
+// console.log(num)
+// console.log(float)
+// console.log(pow)
+//
+// console.log('MAX_SAFE_INTEGER', Number.MAX_SAFE_INTEGER)
+// console.log(Math.pow(2, 53) - 1)
+// console.log(Number.MIN_SAFE_INTEGER)
+// console.log('MAX_VALUE', Number.MAX_VALUE)
+// console.log('MIN_VALUE',Number.MIN_VALUE)
+// console.log('POSITIVE_INFINITY',Number.POSITIVE_INFINITY)
+// console.log('NEGATIVE_INFINITY',Number.NEGATIVE_INFINITY)
+// console.log('1 / 0',1 / 0)
+// console.log(Number.NaN) // Not a Number
+//
+// const stringInt = '40'
+// const stringFloat = '40.42'
+// console.log(Number.parseInt(stringInt) + 2)
+// console.log(Number(stringInt) + 2)
+// console.log(parseInt(stringInt) + 2)
+//
+// console.log(parseFloat(stringFloat) + 2)
+
+// console.log(0.4 + 0.2) // 0.6 -> 0.6000000000000001
+// console.log((2 / 5) + (1 / 5)) // 0.6 -> 0.6000000000000001
+// console.log((0.4 + 0.2).toFixed(1))
+
+//-----------*-----------------*-----------------------*---------------*----------------
+
+// BigInt
+// console.log(typeof 9001515651521874165148974165441566n) // + n = BigInt
+
+// console.log(10n - 4) // err - cause BI only
+// console.log(parseInt(10n) - 4)    --- 2.12
 
 
-// 2 Мутирование
-// console.log('Имя: ' + firstName + ', а возраст: ' + age)
-// alert('Имя: ' + firstName + ', а возраст: ' + age)
-
-// const nameC = prompt('Введите Фамилию')
-// alert(firstName + ' ' + nameC)
 
 
-// 3 Операторы
-let currentYear = 2021
-const birthYear = 1987
-const a = 10
-const b = 5
 
-const age = currentYear - birthYear
 
-console.log(currentYear++)
-console.log(currentYear++)
+
