@@ -1,5 +1,5 @@
 
-// Number
+// 1 Number
 // const num = 42
 // const float = 42.42
 // const pow = 10e3
@@ -31,11 +31,30 @@
 
 //-----------*-----------------*-----------------------*---------------*----------------
 
-// BigInt
+// 2 BigInt
 // console.log(typeof 9001515651521874165148974165441566n) // + n = BigInt
 
 // console.log(10n - 4) // err - cause BI only
 // console.log(parseInt(10n) - 4)    --- 2.12
+
+
+// 3 Math
+// console.log(Math.PI)
+// console.log(Math.E)
+// console.log(Math.sqrt(25))
+// console.log(Math.max(1, 3, 5, 7, 144))
+// console.log(Math.min(1, 3, 5, 7, 144))
+
+
+// 4 Example
+
+// function getRandomBetween(min, max){
+//     return Math.floor(Math.random() * (max - min + 1) + min)
+// }
+//
+// console.log(getRandomBetween(10, 42));
+
+
 
 
 
